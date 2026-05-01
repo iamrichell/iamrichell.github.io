@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Oswald', sans-serif;
 }
 
+h4{
+    font-size: 18px;
+}
 p, table{
     font-family: 'Raleway', sans-serif;
 }
@@ -76,6 +79,10 @@ figure{
 
 .bold{
     font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
 }
 
 /* (1) Header Area */
@@ -174,19 +181,19 @@ figure{
     min-height: 200px;
     overflow: auto;
 }
-#nature-of-assessment img{
+#assessment-content img{
     border-radius: 10px;
     width: 95%;
     height: 100%;
 }
 
-#images{
+.images{
     width: 85%;
     height: 200px;
     margin: auto;
     margin-bottom: 20px;
 }
-#images img{
+.images img{
     width: 19%;
     height: 100%;
     float: left;
@@ -197,11 +204,12 @@ figure{
 
 }
 
-#images img:hover{
+.images img:hover{
     transform: scale(1.5); 
 }
 
-#images img:last-child{
+
+.images img:last-child{
     margin-right: 0;
 }
 
@@ -209,12 +217,45 @@ figure{
     text-align: left;
 }
 
-/* UNIT 2 */
-#unit-2, #unit-4, #unit-6{
-    background-color: aliceblue;
+.assessment-of-learning{
+    background-image: url('../images/classroom.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    padding-top: 20px;
 }
+
+.assessment-of-learning p{
+    background-color: rgba(255,255,255,.9);
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px 10px #123456;
+}
+
+#assessment-for-as h4{
+    margin: 30px 0;
+}
+#assessment-for-as table{
+    width: 100%;
+}
+
+#assessment-for-as table td{
+    width: 33%;
+    border-right: 2px dotted red;
+    border-left: 2px dotted red;
+    padding: 20px;
+    vertical-align: top;
+}
+
+#assessment-for-as table td img {
+    width: 40%;
+}
+
 #philosophical-and-theoretical div h4{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 #philosophical-and-theoretical div table{
     width: 100%;
@@ -238,7 +279,85 @@ figure{
 }
 
 
+/* UNIT 2 */
+#unit-2, #unit-4, #unit-6{
+    background-color: aliceblue;
+}
+
+#characteristics-assessment{
+    margin-top: 10px;
+}
+
+#characteristics-assessment table th{
+    border-bottom: 1px double gray;
+    padding-bottom: 5px;
+}
+#characteristics-assessment table td{
+    text-align: left;
+    border-bottom: 1px dotted gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#characteristics-assessment table td:nth-child(1){
+    font-weight: bold;
+    width: 12%;
+}
+
+#classroom-assessment{
+    height: auto;
+    min-height: 450px;
+    margin-top: 50px;
+}
+
+#classroom-assessment div{
+    width: 50%;
+    float: left;
+
+}
+
+#classroom-assessment #assessment-left img{
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 3px gray;
+    border: 1px solid gray;
+}
+
+.learning-domain th, td{
+    vertical-align: top;
+}
+
+#criteria:hover{
+    transform: scale(2); 
+    display: block;
+    /* border: 1px solid black; */
+}
+#blooms-table th{
+    vertical-align: top;
+    border-left: 1px dashed #123456;
+    border-right: 1px dashed #123456;
+}
+
+#blooms-table td{
+    width: 32%;
+    text-align: left;
+    vertical-align: top;
+    padding: 15px 10px;
+    border-left: 1px dashed #123456;
+    border-right: 1px dashed #123456;
+}
+
 /* UNIT 3 */
+
+
+#designing-tool-techniques p{
+    margin-top: 20px;
+    text-align: left;
+    background-color: rgba(240, 248, 255, .7);
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+}
 #tos img{
     width: 80%;
     height: 50%;
@@ -248,11 +367,6 @@ figure{
     text-align: left;
     margin-bottom: 10px;
 }
-
-
-
-
-
 
 
 /*Footer Area */
