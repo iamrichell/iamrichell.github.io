@@ -24,7 +24,7 @@ p, table{
     margin: auto;
 }
 
-.unit1, .unit2, .unit3, .unit4, .unit5, .unit6{
+.unit1, .unit2, .unit3, .unit4, .unit5, .unit6, .my-report{
     width: 85%;
     margin: 4em auto;
     overflow: auto;
@@ -102,7 +102,7 @@ figure{
 
 .nav h1{
     text-transform: uppercase;
-    width: 30%;
+    width: 20%;
     float: left;
     padding-left: 7.5%;
 }
@@ -114,7 +114,7 @@ figure{
 }
 
 .nav ul{
-    width: 50%;
+    width: 70%;
     float: right;
     text-align: right;
     padding-top: 1em;
@@ -146,20 +146,21 @@ figure{
     background-position: center;
     position: relative;
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
+    height: 90vh;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
 .banner-text{
     position: absolute;
-    top: 15%;
+    top: 23%;
     right: 7.5%;
-    width: 800px;
+    width: 900px;
 }
 
 .banner-text h2{
     color: #82CAFF;
-    font-size: 5.5em;
+    font-size: 7em;
     text-shadow: 2px 2px 4px #123456;
     font-family: "Imperial Script", cursive;
     text-align: right;
@@ -280,7 +281,7 @@ figure{
 
 
 /* UNIT 2 */
-#unit-2, #unit-4, #unit-6{
+#unit-2, #unit-4, #unit-6, #my-report{
     background-color: aliceblue;
 }
 
@@ -348,15 +349,47 @@ figure{
 }
 
 /* UNIT 3 */
-
-
-#designing-tool-techniques p{
-    margin-top: 20px;
+#designing-tool-techniques .intro{
     text-align: left;
     background-color: rgba(240, 248, 255, .7);
     padding: 20px;
     border: 1px solid darkblue;
     border-radius: 10px;
+    box-shadow: 2px 2px 20px 10px gainsboro;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.assessment-tools img{
+    width: 33%;
+    border: 1px solid black;
+}
+
+.oop-activities img{
+    width: 49%;
+}
+
+#methods-to-lo td, #methods-to-lo th{
+    width: 34%;
+    border-bottom: 1px dotted #123456;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+#methods-to-lo tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+#mini-assessment-plan table, #mini-assessment-plan  tr,  #mini-assessment-plan  td{
+    border: 1px solid gray;
+    text-align: left;
+    vertical-align: top;
+}
+
+#mini-assessment-plan td{
+    width: 33%;
+    padding: 10px;
 }
 #tos img{
     width: 80%;
@@ -366,6 +399,73 @@ figure{
 #tos p{
     text-align: left;
     margin-bottom: 10px;
+}
+
+/* MY REPORT */
+#my-report{
+    padding: 20px 0;
+}
+
+.my-report .section-header span{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#tea-examples{
+    margin-top: 20px;
+}
+
+.tool-title{
+    background-color: #123456;
+    color: #fff;
+}
+#tea-examples td{
+    width: 50%;
+    border-bottom: 1px dotted gray;
+    /* vertical-align: top; */
+    text-align: left;
+    padding: 10px 5px;
+    border-bottom: none;
+
+}
+
+#tea-examples td img{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px #123456;
+}
+
+#traditionalvstech{
+    text-align: left;
+}
+
+#traditionalvstech th, #traditionalvstech td{
+    border-bottom: 1px dotted gray;
+    width: 33%;
+    padding: 10px 5px;
+}
+
+#ms-form, #ms-teams{
+    margin-top: 10px;
+    height: auto;
+    min-height: 700px;
+    margin-bottom: 20px;
+}
+
+#ms-form img, #ms-teams img{
+    width: 55%;
+    height: 400px;
+    border: 1px solid darkgreen;
+    display: inline;
+    transition: transform .2s; /* Animation */
+}
+
+#ms-form img:hover, #ms-teams img:hover{
+    transform: scale(1.5); 
 }
 
 
