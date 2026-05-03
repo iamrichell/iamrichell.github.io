@@ -432,7 +432,7 @@ figure{
 }
 
 #tea-examples td img{
-    width: 500px;
+    width: 600px;
     height: 300px;
     border: 1px solid black;
     border-radius: 10px;
@@ -440,7 +440,7 @@ figure{
 }
 
 #traditionalvstech{
-    text-align: left;
+    width:100%;
 }
 
 #traditionalvstech th, #traditionalvstech td{
